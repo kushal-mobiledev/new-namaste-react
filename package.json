@@ -1,0 +1,21 @@
+{
+  "name": "new-namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React - new app from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "namaste-react",
+    "react",
+    "frontend",
+    "kushal",
+    "desai"
+  ],
+  "author": "Kushal Desai",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
