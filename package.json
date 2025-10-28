@@ -2,9 +2,12 @@
   "name": "new-namaste-react",
   "version": "1.0.0",
   "description": "This is Namaste React - new app from scratch",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "test": "jest",
+    "makeRelease": "parcel build index.html",
+    "clean": "rm -rf .parcel-cache dist",
+    "runWebsite": "npm run clean && npm start"
   },
   "keywords": [
     "namaste-react",
@@ -17,5 +20,12 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.16.0"
-  }
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist": [
+    ">0.3%, last 10 versions, not dead"
+  ]
 }
